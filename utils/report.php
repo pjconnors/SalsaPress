@@ -1,6 +1,5 @@
 <?php
 
-
 // Generates an object that Salsa Render uses to display the report
 
 class SalsaReport {
@@ -36,8 +35,6 @@ class SalsaReport {
 				$start = '<tr>';
 				$end = '</tr>';
 		endswitch;
-		
-
 		
 		if( $headers['show'] ):
 			

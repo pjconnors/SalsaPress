@@ -1,7 +1,5 @@
 <?php
 
-
-
 class SalsaConnect {
 	public $user = salsapress_salsa_username;
 	protected $pass = salsapress_salsa_pass;

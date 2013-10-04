@@ -1,6 +1,6 @@
 <?php
 
-// Creates the button for embedding Salsas in posts 
+// Creates the button for embedding Salsa in posts 
 
 //Functions for the Buttons
 function salsapress_form_button(){

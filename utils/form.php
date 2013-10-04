@@ -1,6 +1,6 @@
 <?php
 
-// Used to genrate a salas form, buth for events and sign up forms
+// Used to genrate a Salsa form, buth for events and sign up forms
 
 class SalsaForm {
 	public $form;

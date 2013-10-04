@@ -18,9 +18,7 @@ function salsapress_salsa_render($atts, $content = null ) {
 	return $done;
 }
 
-
 add_filter("mce_external_plugins", "add_salsapress_tinymce_plugin");
-
 
 function add_salsapress_tinymce_plugin($plugin_array) {
 	$plugin_array['salsa'] =  base.'admin/editor_plugin.js';

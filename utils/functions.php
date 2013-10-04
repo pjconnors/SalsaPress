@@ -1,9 +1,6 @@
 <?php
 
-
-
 // Useful functions that are used throughout
-
 
 
 if( !function_exists('str_getcsv') ) { 
@@ -31,7 +28,7 @@ function better_excerpt($string, $length) {
 			$returner = mb_strcut($string,0,strpos($string,".",$length)+1);
 		}
 	} else $returner = $string;
-	// scrub all html, fuck the periods. All html;/
+	// scrub all html
 	return trim($returner);
 }
 
