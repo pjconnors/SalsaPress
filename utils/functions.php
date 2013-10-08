@@ -2,7 +2,6 @@
 
 // Useful functions that are used throughout
 
-
 if( !function_exists('str_getcsv') ) { 
 	function str_getcsv($input, $delimiter=',', $enclosure='"', $escape=null, $eol=null) { 
 		$temp=fopen("php://memory", "rw"); 

@@ -91,8 +91,6 @@ class SalsaReport {
 			$returned .=  $end;
 		endforeach;
 
-
-
 		switch( $type ):
 			case 'list':
 				$returned .=  '</ul>';

@@ -2,9 +2,9 @@
 span.notice { padding: 20px 2px; float: right; }
 span.notice.oops { color: red; }
 span.notice.success { color: green; }
-/* Sals Form */
+/* Salsa Form */
 form.salsa-form label.oops { color: red;  } 
-form.salsa-form { width: 300px; text-align: right;}
+form.salsa-form { width: 300px;}
 form.salsa-form input[type=text] { margin: 4px 0; }
 form.salsa-form label { padding: 0px 12px; }
 form.salsa-form label.text_me {padding: 0;}
